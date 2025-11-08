@@ -1,0 +1,26 @@
+﻿<dialog width="380" height="200" appwin="1" min_width="380" min_height="200" title="强压" class="settingdlg_bk" round="5" tabdefault="1">
+    <div  pos="0,0,-0,30">
+      <text id="31001" class="dlgtitle" pos="35,8,-45,25"></text>
+      <img pos="10,7" skin="title_icon" sub="0"/>
+      <!--<imgbtn id="30001" pos="-37,4,-6,23" class="sysbtn_close"/>
+      <imgbtn id="30002" pos="-64,4,-38,23" class="sysbtn_min"/>-->
+      <imgbtn id="30001" pos="-37,4,-6,23" class="sysbtn_only_close"/>      
+    </div>
+
+    <div pos="6,34,-6,-136">
+      <!--<text id="31002"  class="text_progress_body_head" pos="26,6">正在压缩</text>-->
+      <text id="31003" class="text_progress_body_head" pos="26,8,-26,35"></text>
+    </div>
+    <img pos="7,31" skin="progress_body_head" sub="0"/>
+    <div pos="6,-136,-6,-36" >
+      <text id="31004" class="text_normal" pos="26,26"></text>
+      <!-- 进度条-->
+        <progress id="31005" pos="26,-40,-26,-27" min="0" max="100" value="0" showpercent="1" crtext="000000"  bgskin="progressbg" posskin="progresspos" fractional="1"/>
+    </div>
+      <div  pos="6,-36,-6,-6">
+      <button id="30004" pos="-103,-25,-25,-2" class="def_btn" taborder="3" accept="1">取消</button> 
+      <button id="30005" pos="-191,-25,-113,-2" class="def_btn" taborder="2" accept="1">暂停</button>
+      <button id="30003" pos="-269,-25,-201,-2" class="def_btn" taborder="1" accept="1">后台</button> 
+    </div>
+  
+</dialog>

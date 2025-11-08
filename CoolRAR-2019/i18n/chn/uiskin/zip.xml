@@ -1,0 +1,32 @@
+﻿<dialog width="460" height="280"  min_width="460" min_height="280" appwin="1" title="准备压缩-强压" round="5" tabdefault="3">
+  <div  pos="0,0,-0,-0" class="settingdlg_bk">
+    <div  pos="0,0,-0,30">
+      <text id="21002" class="dlgtitle" pos="35,8,-45,25">准备压缩 - 强压</text>
+      <img pos="10,7" skin="title_icon" sub="0"/>
+      <!--<imgbtn id="20001" pos="-37,4,-6,23" class="sysbtn_close"/>
+      <imgbtn id="20002" pos="-63,4,-37,23" class="sysbtn_min"/>-->
+      <imgbtn id="20001" pos="-37,4,-6,23" class="sysbtn_only_close"/> 
+    </div>
+    
+    <div pos="5,29,-5,-30">
+      <!-- Tab 示例 -->
+      <tabcontrol id="21001"  pos="0,5,-0,-0" tabwidth="77" tabheight="25" tabminsize="77" tabstartpos="4"  tabmarginx="2">
+        <tabitem  class="tab_item_zip"  file="option_onekeycompress.xml">
+          <text pos="0,0,-0,-0" class="black_normal" >一键压缩</text>
+        </tabitem>
+
+        <tabitem class="tab_item_zip" file="option_password.xml">
+          <text pos="0,0,-0,-0" class="black_normal">添加密码</text>
+        </tabitem>
+
+        <tabitem  id="21101"  class="tab_item_zip" file="option_partcompress.xml">
+          <text pos="0,0,-0,-0" class="black_normal">分卷压缩</text>
+        </tabitem>
+      </tabcontrol>
+      <div pos="0,0,-0,30" class="tab_bk"></div>
+    </div>
+	
+    <button id="20004" pos="-81,-30,-3,-7" class="def_btn" taborder="2" accept="1">取消</button>
+    <button id="20003" pos="-167,-30,-89,-7" class="def_btn" taborder="1" accept="1">立即压缩</button>
+  </div>
+</dialog>

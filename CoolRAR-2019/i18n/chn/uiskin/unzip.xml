@@ -1,0 +1,30 @@
+﻿<dialog width="460" height="212"  min_width="460" min_height="212" appwin="1" title="准备解压-强压" round="5" tabdefault="3">
+  <div  pos="0,0,-0,-0" class="settingdlg_bk">
+    <div  pos="0,0,-0,30">
+      <text class="dlgtitle" pos="35,8,-45,25">准备解压-强压</text>
+      <img pos="10,7" skin="title_icon" sub="0"/>
+      <!--<imgbtn id="40001" pos="-37,4,-6,23" class="sysbtn_close"/>
+      <imgbtn id="40002" pos="-64,4,-38,23" class="sysbtn_min"/>-->
+      <imgbtn id="40001" pos="-37,4,-6,23" class="sysbtn_only_close"/>
+    </div>
+    <div pos="5,29,-5,-36">
+      <!-- Tab 示例 -->
+      <tabcontrol id="40006"  pos="0,5,-0,-0" tabwidth="77" tabheight="25" tabminsize="77" tabstartpos="4"  tabmarginx="2">
+        <tabitem class="tab_item_zip"  file="option_fast_unzip.xml">
+          <text pos="0,0,-0,-0" class="black_normal" >快速解压</text>
+        </tabitem>
+
+        <!--
+        <tabitem  class="tab_item_zip" file="option_advanced_options.xml">
+          <text pos="0,0,-0,-0" class="black_normal">高级选项</text>
+        </tabitem>
+        -->
+      </tabcontrol>
+      <div pos="0,0,-0,30" class="tab_bk"></div>
+    </div>
+    <div  pos="6,-36,-3,-6">
+      <button id="40004" pos="-78,-25,-0,-2" class="def_btn" taborder="2" accept="1">取消</button>
+      <button id="40003" pos="-164,-25,-86,-2" class="def_btn" taborder="1" accept="1">立即解压</button>
+    </div>
+  </div>
+  </dialog>

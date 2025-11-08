@@ -1,0 +1,21 @@
+﻿<dialog width="345" height="170"  appwin="1" min_width="345" min_height="166" title="强压" round="5">
+<div  pos="0,0,-0,-0" class="bug_bk">    
+	<div  pos="0,0,-0,30">
+		<text id="10001" class="dlgtitle" pos="35,8,-80,25">强压</text>
+		<img pos="10,7" skin="title_icon" sub="0"/>
+		<imgbtn id="10002" pos="-37,4,-6,23" class="sysbtn_only_close"/>
+    </div>
+	
+    <div pos="6,34,-6,-6">
+		<img pos="36,24" skin="alert_icon" sub="1"/>
+		<text id="10003" class="dlgtitle" pos="101,29,-80,46">哎呀，崩溃了！</text>
+        <text id="10004" class="text_normal" pos="101,47">拼命努力挽救后，人家还是牺牲了。</text>
+		<button id="10005" pos="168,100,238,123" class="def_btn">重启软件</button> 
+        <button id="10006" pos="243,100,313,123" class="def_btn">救救我吧</button>
+		<imgbtn id="10007" pos="18,104,36,120" class="arrow_down_button"/>
+		<imgbtn id="10010" pos="18,104,36,120" class="arrow_up_button"/>
+		<text id="10008" class="text_normal" pos="42,104">详细信息</text>
+		<edit id="10009" class="normal_edit" multiline="1" vscroll="1" pos="20,-86,-20,-7"/>
+    </div>
+</div>
+</dialog>

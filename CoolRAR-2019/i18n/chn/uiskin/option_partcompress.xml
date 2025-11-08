@@ -1,0 +1,24 @@
+﻿<div pos="0,0,-0,-0" >
+  <text id="24003" class="text_normal" pos="65,60">分卷压缩包大小：</text>
+  <combobox_ex focus="0" id="24001" pos="65,85,275,108" margin_x="1" margin_y="1" type="dropdown" dropdownbtn_width="21" 
+         skin="combobox_bg" skin_dropdownbtn="btn_combobox_dropdown" class_edit="combobox_edit" taborder="6" accept="0">
+    <combobox_dropdown width="210" max-height="100" height="100" class="combobox_dropdown" want_edit_return="1">
+      <list pos="0,0,-0,-0" class="combobox_dropdown_list" >
+        <list_body pos="0,0,-0,-0" multselect="0">
+          <list_row width="full" height="20" class="combobox_dropdown_item">
+            <!--<div width="38" height="full">
+                <img pos="10,|-9" skin="stateicon"/>
+              </div>-->
+            <div width="full" height="full">
+              <text pos="6,2" class="listitem">Test</text>
+            </div>
+          </list_row>
+        </list_body>
+      </list>
+    </combobox_dropdown>
+  </combobox_ex>
+  <radiobox id="24002" pos="290,85,-0,108">
+    <radio class="radio_normal" pos="16,0,50,-0" taborder="0" accept="0">MB</radio>
+    <radio class="radio_normal" pos="74,0,110,-0" taborder="0" accept="0">KB</radio>
+  </radiobox>
+</div>

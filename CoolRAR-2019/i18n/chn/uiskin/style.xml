@@ -1,0 +1,129 @@
+﻿<style>
+	<!-- 背景风格 -->
+  <class name="settingdlg_bk" skin="settingdlg_bk" background="1"/>
+  <class name="bug_bk" skin="bug_bk" background="1"/>
+  <class name="settingdlg_bk2" skin="settingdlg_bk2"/>
+  <class name="tab_bk" skin="tab_bk"/> 
+  <class name="line_h" skin="line_h"/> 
+  <!-- 控件风格 -->
+  <class name="sysbtn_close" skin="sysbtn_close"/>
+  <class name="sysbtn_only_close" skin="sysbtn_only_close"/> 
+  <class name="sysbtn_max" skin="sysbtn_max"/>
+  <class name="sysbtn_min" skin="sysbtn_min"/>
+  <class name="tab_item_zip" skin="tab_item_zip" />
+  <class name="black_normal" font="0000" textmode="0025"  crtext="494949" />
+  <class name="btn_normal" skin="btn_normal" font="0000" textmode="0025"  crtext="000000" />
+  <class name="normal_edit" skin="normal_edit" y-margin="5" x-margin="3" />
+  <class name="def_btn" skin="def_btn" textmode="0025" crtext="323232"/>
+  
+  <!-- 字体风格 -->
+  <class name="dlgtitle" font="0104" crtext="3a3f40" textmode="8020" background="1"/>
+  <class name="text_normal" font="0000" crtext="494949"/>
+  <class name="text_normal_multi_line" font="0000" crtext="494949" textmode="2010"/> 
+  <class name="text_normal_dot" font="0000" crtext="494949" textmode="8020"/> 
+  <class name="text_progress_body_head" font="0104" crtext="2c2d2d" textmode="8020"/>
+  <class name="text_state" font="0004" crtext="336699" textmode="8020"/>
+  <class name="text_mid"  crtext="ff0000" textmode="0025"/>
+  <!-- text自动换行 -->
+  <class name="multitext" crtext="49525b" font="0000" textmode="2010" />
+  
+  <!-- combobox -->
+  <class name="def_btn_combbox" skin="def_btn_combbox" textmode="25" crtext="000000"/>
+  <class name="combobox_edit" skin="edit_combobox" x-margin="2" y-margin="4" />
+  <class name="combobox_dropdown" skin="combobox_dropdown_border" />
+  <class name ="combobox_dropdown_list_text" textmode="8024" crtext="494949"/>
+  <class name="combobox_dropdown_list" scroll_v="scroll_v" scroll_h="scroll_h" x-margin="2" y-margin="4"/>
+  <class name="combobox_dropdown_item" skin="combobox_dropdown_item" crtext="000000" crhover="FFFFFF" />
+  
+   <!-- 背景风格 -->
+  <class name="main_bg" skin="main_bg" />
+
+  <class name="toolbar_url_tip" skin="toolbar_url_tip" />
+  <class name="status_png" skin="status_png" />
+  <class name="status_spe_png" skin="status_spe_png" />
+  <class name="banner_png" skin="banner_png" />
+  <class name="fileforder_bk" skin="fileforder_bk" />
+  <class name="urlbk" skin="urlbk" />
+
+
+  <!-- 控件风格 -->
+  <class name="msysbtn_close" skin="msysbtn_close"/>
+  <class name="msysbtn_restore" skin="msysbtn_restore"/>
+  <class name="msysbtn_max" skin="msysbtn_max"/>
+  <class name="msysbtn_min" skin="msysbtn_min"/>
+  <class name="menu_file" skin="menu_file"/>
+  <class name="menu_option" skin="menu_option"/>
+  <class name="menu_help" skin="menu_help"/>
+  <class name="menu_feedback" skin="menu_feedback"/>
+  <class name="toolbar_compress" skin="toolbar_compress" />
+  <class name="toolbar_add" skin="toolbar_add"/>
+  <class name="toolbar_uncompress" skin="toolbar_uncompress"/>
+  <class name="toolbar_delete" skin="toolbar_delete"/>
+  <class name="toolbar_sfx" skin="toolbar_sfx"/>
+
+  <class name="toolbar_go_left" skin="toolbar_go_left"/>
+  <class name="toolbar_go_right" skin="toolbar_go_right"/>
+  <class name="toolbar_go_last" skin="toolbar_go_last"/>
+  <class name="toolbar_go_up" skin="toolbar_go_up"/>
+  
+  <class name="toolbar_switch_tree_bt" skin="toolbar_switch_tree_bt"/>
+
+  <class name="aboutbtn_close" skin="aboutbtn_close"/>
+  <class name="bt_yes" skin="bt_yes"/>
+
+  <class name="right_png" skin="right_png" />
+  
+  <class name="arrow_down_button" skin="detail_arrow_down" />
+  <class name="arrow_up_button" skin="detail_arrow_up" />
+  
+  <!-- 字体风格 -->
+  <class name="book_tab_list_item_text" crtext="B7B6B4" crhover="DA6919" />
+  <class name="black_bold" font="0004" crtext="3A3F40" />
+  <class name="info_tip" font="0004" crtext="6F87A9" textmode="2"/>
+  <class name="toolbar_info" font="0004" crtext="444444" />
+  <class name="about_info_style" font="0100" crtext="323232" />
+
+  <class name="hand_bt_switch_toleft" cursor="hand" skin="hand_bt_switch_toleft" />
+  <class name="hand_bt_switch_toright" cursor="hand" skin="hand_bt_switch_toright" />
+  <class name="tab_item" skin="tab_item" />
+
+  <class name="set_link" font="0100" cursor="hand" crtext="6AB6F7" crhover="1764A5" />
+  <class name="all_bt" skin="all_bt" textmode="0025" />
+  
+  <class name="view_type1" skin="view_type1"  />
+  <class name="view_type2" skin="view_type2"  />
+  
+	<!-- check box --> 
+	<class name="checkbox_normal" skin="checkbox_normal" />
+	
+	<!-- radio box --> 
+	<class name="radio_normal" skin="radio_normal" />
+  
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+﻿<dialog   width="383" height="305" appwin="0" resizable="0" round="5">
+  <div  pos="0,0,-0,-0" class="settingdlg_bk">
+  <!-- 标题栏 -->
+  <div pos="0,0,-0,30" >
+    <img pos="10,7" skin="main_icon" sub="0" />
+    <text pos="35,8,-80,25" class="dlgtitle" >设置 </text>
+    <imgbtn  id="10484"  pos="-39,5,-8,24" class="sysbtn_only_close"/>
+  </div>
+
+  <!-- 中间 -->
+  <div pos="5,29,-5,-36" >
+      <tabcontrol id="10501"  pos="0,5,-0,-0" tabwidth="77" tabheight="25" tabminsize="77" tabstartpos="4"  tabmarginx="2">
+      <tabitem  class="tab_item_zip"  file="option_setting.xml">
+        <text pos="0,0,-0,-0" class="black_normal" >文件关联</text>
+      </tabitem>
+      </tabcontrol>
+      <div pos="0,0,-0,30" class="tab_bk"></div>
+  </div>
+
+ 
+  
+  <!-- 底部 -->
+  <div pos="0,-36,-0,-0" >
+    <button id="10481" pos="-140,5,-80,28" class="def_btn">确定</button>
+    <button id="10482" pos="-70,5,-10,28" class="def_btn">取消</button>
+    <button id="10483" pos="12,5,105,28" class="def_btn">恢复默认设置</button>
+  </div>
+  </div>
+
+</dialog>

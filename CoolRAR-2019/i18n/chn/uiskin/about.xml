@@ -1,0 +1,22 @@
+﻿<dialog   title="关于" class="settingdlg_bk2" width="325" height="210" appwin="1" resizable="0" background="1"  round="5">
+
+  <!-- 标题栏 -->
+    <div pos="0,0,-0,30"   >
+      <img pos="10,7" skin="main_icon" sub="0" />
+      <text pos="35,8,-80,25" class="dlgtitle" >关于</text>
+      <imgbtn id="10001" pos="-39,5,-8,24" class="sysbtn_only_close"/>
+    </div>
+
+    <!-- 中间 -->
+    <div pos="26,44,196,104" class="right_png">
+      
+    </div>
+
+    <!-- 底部 -->
+    <div pos="0,95,-0,-0" >
+         <text pos="30,30" class="about_info_style" >御坂初琴工作室 CopyRight 2019</text>
+         <text pos="30,45,-0,65" class="about_info_style" >http://web.zhanhi.com/vip_ybcq.html</text>
+         <button id="20104" pos="-78,-30,-8,-7" class="def_btn" >确定</button>      
+  
+    </div>
+</dialog>

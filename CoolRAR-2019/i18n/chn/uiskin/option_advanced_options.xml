@@ -1,0 +1,5 @@
+﻿<div pos="0,0,-0,-0">
+  <!--<check id="42002" pos="33,20" font1="0204">解压每个包到单独文件夹</check>-->
+  <check id="42001" class="checkbox_normal" pos="33,40" font1="0204">智能消除多余文件夹</check>
+  <check id="42003" class="checkbox_normal" pos="-160,40" font1="0204">解压完成后删除压缩包</check> 
+</div>

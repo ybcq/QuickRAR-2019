@@ -1,0 +1,27 @@
+﻿<div pos="0,0,-0,-0" >
+  <text class="text_normal" pos="16,20">解压路径：</text>
+  <combobox_ex focus="0" id="41001" pos="-370,16,-55,39" margin_x="1" margin_y="1" type="dropdown" dropdownbtn_width="21" 
+           skin="combobox_bg" skin_dropdownbtn="btn_combobox_dropdown" class_edit="combobox_edit" taborder="3">
+    <combobox_dropdown width="315" max-height="100" height="100" class="combobox_dropdown" want_edit_return="1">
+      <list pos="0,0,-0,-0" class="combobox_dropdown_list" >
+        <list_body pos="0,0,-0,-0" multselect="0">
+          <list_row width="full" height="20" class="combobox_dropdown_item">
+            <!--<div width="38" height="full">
+                <img pos="10,|-9" skin="stateicon"/>
+              </div>-->
+            <div width="full" height="full">
+              <text pos="6,2" class="listitem">Test</text>
+            </div>
+          </list_row>
+        </list_body>
+      </list>
+    </combobox_dropdown>
+  </combobox_ex>
+
+  <button id="41003" pos="-47,16,-16,39" class="def_btn" taborder="4" accept="1">…</button>
+  <text id="41002" class="text_normal" pos="16,56">剩余空间：</text>
+
+  <check id="42001" class="checkbox_normal" pos="16,83" font1="0204">智能消除多余文件夹</check>
+  <check id="42003" class="checkbox_normal" pos="-280,83" font1="0204">解压完成后删除压缩包</check>
+  
+</div>

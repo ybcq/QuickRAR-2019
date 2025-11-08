@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dialog title="强压2019内核升级版-BY:御坂初琴" class="main_bg" width="800" height="600" min_width="560" min_height="400" appwin="1" resizable="1" round="5" >
+  <!-- 标题栏 -->
+  <!--div pos="0,0,-0,30" crbg="DFEFFC"-->
+  <div pos="0,0,-0,30" background="1"> 
+    <img pos="10,7" skin="main_icon" sub="0" />
+    <text pos="35,8" >强压2019内核升级版-BY:御坂初琴</text>
+    
+    <imgbtn id="10001" pos="-36,5,-4,-5" class="msysbtn_close"  tooltip="关闭"/>
+    <imgbtn id="10002" pos="-60,5,-36,-5" class="msysbtn_max"  tooltip="最大化"/>
+    <imgbtn id="10003" pos="-86,5,-60,-5" class="msysbtn_min"  tooltip="最小化"/>
+    <imgbtn id="10004" pos="-60,5,-36,-5" class="msysbtn_restore"  tooltip="还原"/>
+
+    <imgbtn id="10101" pos="-313,4,-261,26" skin="menu_file"/>
+    <imgbtn id="10102" pos="-258,4,-206,26" skin="menu_option"/>
+    <imgbtn id="10103" pos="-203,4,-151,26" skin="menu_help"/>
+    <imgbtn id="10104" pos="-150,4,-98,26" skin="menu_feedback"/>
+  </div>
+
+  <!-- 功能区 -->
+  <!--div pos="4,30,-4,-4" crbg="FFFF00" -->
+  <div pos="4,30,-4,-4" background="1">
+    <!-- 顶部工具栏 -->
+    <div pos="0,0,-0,77"  class="banner_png">
+      <imgbtn id="10201" pos="15,3,77,73" class="toolbar_compress" tooltip="压缩"/>
+      <imgbtn id="10202" pos="80,3,142,73" class="toolbar_add" tooltip="添加"/>
+      <imgbtn id="10203" pos="145,3,207,73" class="toolbar_uncompress" tooltip="解压缩"/>
+      <imgbtn id="10204" pos="210,3,272,73" class="toolbar_delete" tooltip="删除"/>
+      <imgbtn id="10219" pos="275,3,337,73" class="toolbar_sfx" tooltip="自解压"/>
+
+      <!--imgbtn  pos="0,0,-0,-0" class="banner_png"/-->
+    </div>
+
+    <!-- 中部功能区 -->
+    <div pos="0,77,-0,105" class="urlbk" >
+      <imgbtn id="10205" pos="10,3,32,25" class="toolbar_go_left" tooltip="后退"/>
+      <imgbtn id="10206" pos="36,3,58,25" class="toolbar_go_right" tooltip="前进"/>
+      <imgbtn id="10207" pos="62,7,76,20" class="toolbar_go_last" tooltip="返回到"/>
+      <imgbtn id="10208" pos="80,3,102,25" class="toolbar_go_up" tooltip="向上"/>
+      <!--img  pos="110,0,122,28" class="toolbar_url_tip"/-->
+
+      <!--<combobox id="10209" pos="135,203,-40,288"/>-->
+
+      <combobox_ex  focus="0" id="10209" pos="115,2,-40,25" margin_x="1" margin_y="1" type="dropdown" dropdownbtn_width="21" 
+           skin="combobox_bg"  skin_dropdownbtn="btn_combobox_dropdown" class_edit="combobox_edit" taborder="4" accept="0">
+        <combobox_dropdown width="557" auto-combobox-size="1"  max-height="220" height="220" class="combobox_dropdown" want_edit_return="1">
+          <list pos="0,0,-0,-0" class="combobox_dropdown_list" >
+            <list_body pos="0,0,-0,-0" multselect="0">
+              <list_row width="full" height="20" class="combobox_dropdown_item">
+                <!--<div width="38" height="full">
+                <img pos="10,|-9" skin="stateicon"/>
+              </div>-->
+                <div width="full" height="full">
+                  <text pos="20,2" class="listitem">Test</text>
+                  <icon pos="2,2"></icon>               
+                </div>
+              </list_row>
+            </list_body>
+          </list>
+        </combobox_dropdown>
+      </combobox_ex>
+    <!--  
+      <div pos="115,82,-40,23" crbg="FFFF00">
+        <realctrl id ="10308" pos="0,0,-0,-0" crbg="FFFFFF"/>
+      </div>
+    -->
+      <imgbtn id="10210" pos="-30,3,-8,25" class="view_type1" tooltip="切换到缩略图视图"/>
+      <imgbtn id="10211" pos="-30,3,-8,25" class="view_type2" tooltip="切换到详细列表视图"/>
+      
+    </div>
+
+    <!-- 列表区 -->
+    <!--<div   pos="0,106,-0,-25" crbg="A0A0A0" >
+      
+      --><!-- 左侧树区域 --><!--
+      <div id="10300" pos="0,0,200,-0">
+        <div pos="0,0,-0,30"  class="fileforder_bk"  >
+          <text pos="15,5" class="toolbar_info" >文件夹</text>
+          <imgbtn id="10303" pos="-30,2,-5,-3" class="toolbar_switch_tree_bt"/>
+        </div>
+        <realctrl  id="10302"  pos="0,30,-0,-0" crbg="AAAAAA"/>
+      </div>
+
+      --><!-- 左右分割区域 --><!--
+      <div id="10304" pos="200,0,207,-0" crbg="E4EEF8">
+          <imgbtn id="10306" pos="0,0,-1,-0" class="hand_bt_switch_toleft" tooltip="隐藏目录树"/>
+          <imgbtn id="10307" pos="0,0,-1,-0" class="hand_bt_switch_toright" tooltip="显示目录树"/>
+       </div>
+  
+
+      --><!-- 右侧列表区域 --><!--
+      <div id="10305" pos="207,0,-0,-0">     
+        <realctrl id ="10301" pos="0,0,-0,-0" crbg="FFFFFF"/>
+      </div>      
+    </div>-->
+
+    <splitter id="10309" pos="0,106,-0,-25" crbg="00FF00" >
+      
+      <!-- 左右分割区域 -->
+      <splitter_button id="10304" pos="200,0,207,-0" crbg="E4EEF8" class="hand_bt_switch_toleft"></splitter_button>
+
+      <!-- 左侧树区域 -->
+      <div id="10300" pos="0,0,200,-0" crbg="FF0000">
+        <div pos="0,0,-0,30"  class="fileforder_bk"  >
+          <text pos="15,5" class="toolbar_info" >文件夹</text>
+          <imgbtn id="10303" pos="-30,2,-5,-3" class="toolbar_switch_tree_bt"/>
+        </div>
+        <realctrl  id="10302"  pos="0,30,-0,-0" crbg="AAAAAA"/>
+      </div>
+
+      <!-- 右侧列表区域 -->
+      <div id="10305" pos="207,0,-0,-0" crbg="0000FF">
+        <realctrl id ="10301" pos="0,0,-0,-0" crbg="FFFFFF"/>
+      </div>
+    </splitter>
+
+
+    <!-- 底部状态栏 -->
+    <div pos="0,-25,-0,-0" class="status_png" >
+
+      <text id ="10491"  pos="10,6,-10,26" class="text_state" >已选择0个项目</text>
+      <!--<imgbtn  pos="500,0,501,-0" class="status_spe_png"/> -->
+      <!--imgbtn  pos="0,0,-0,-0" class="status_png"/-->
+    </div>        
+  </div>
+  
+</dialog>

@@ -1,0 +1,19 @@
+﻿<dialog width="340" height="220" appwin="0" resizable="0" min_width="386" min_height="200" title="属性" round="5" tabdefault="1">
+  <div  pos="0,0,-0,-0" class="bug_bk">
+    <div  pos="0,0,-0,30">
+      <text class="dlgtitle" pos="35,8,-80,25">属性</text>
+      <img pos="10,7" skin="title_icon" sub="0"/>
+      <imgbtn id="54001" pos="-37,4,-6,23" class="sysbtn_only_close"/>
+    </div>
+    
+      <text id="54010" class="text_normal_dot" pos="35,46,-6,66"></text>   
+      <text id="54011" class="text_normal" pos="35,66">2</text>
+      <text id="54012" class="text_normal" pos="35,86">3</text>
+      <text id="54013" class="text_normal" pos="35,106">4</text>
+      <text id="54014" class="text_normal" pos="35,126">5</text>
+      <text id="54015" class="text_normal" pos="35,146">6</text>
+   
+      <button id="54002" pos="-76,-39,-16,-16" class="def_btn" taborder="1" accept="1">确定</button> 
+    
+  </div>
+</dialog>

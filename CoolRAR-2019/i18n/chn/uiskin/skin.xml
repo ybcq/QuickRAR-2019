@@ -1,0 +1,146 @@
+﻿<skins>
+  <!-- 背景 -->
+  <background name="settingbody" src_l=".\skin\head_l.png" src_c=".\skin\head_c.png" src_r=".\skin\head_r.png" top_wrapmode="stretch"/>
+  <background name="tab_bk" src_l=".\skin\tab_title_l.png" src_c=".\skin\tab_title_c.png" src_r=".\skin\tab_title_r.png" top_wrapmode="stretch"/>
+
+
+  <background name="settingdlg_bk" src_t=".\skin\setting_body_top_middle.png" src_tl=".\skin\setting_body_top_left.png" src_tr=".\skin\setting_body_right_top.png"
+              src_b=".\skin\setting_body_bottom_middle.png" src_bl=".\skin\setting_body_left_bottom.png" src_br=".\skin\setting_body_right_bottom.png"
+              src_c=".\skin\setting_body_middle_middle.png" src_l=".\skin\setting_body_left_middle.png" src_r=".\skin\setting_body_right_middle.png"
+              top_wrapmode="stretch" bottom_wrapmode="stretch" center_wrapmode="stretch" />
+
+  <background name="settingdlg_bk2" src_t=".\skin\setting_body_top_middle.png" src_tl=".\skin\setting_body_top_left.png" src_tr=".\skin\setting_body_right_top.png"
+            src_b=".\skin\setting_body_bottom_middle.png" src_bl=".\skin\setting_body_left_bottom.png" src_br=".\skin\setting_body_right_bottom.png"
+            src_c=".\skin\setting_body_middle_middle.png" src_l=".\skin\setting_body_left_middle.png" src_r=".\skin\setting_body_right_middle.png"
+            top_wrapmode="tile" bottom_wrapmode="tile" center_wrapmode="stretchtiley" />
+			
+  <background name="bug_bk" src_t=".\skin\setting_body_top_middle.png" src_tl=".\skin\setting_body_top_left.png" src_tr=".\skin\setting_body_right_top.png"
+            src_b=".\skin\bugbk_bottom_middle.png" src_bl=".\skin\bugbk_bottom_left.png" src_br=".\skin\bugbk_bottom_right.png"
+            src_c=".\skin\setting_body_middle_middle.png" src_l=".\skin\setting_body_left_middle.png" src_r=".\skin\setting_body_right_middle.png"
+            top_wrapmode="tile" bottom_wrapmode="tile" center_wrapmode="stretchtiley" />
+			
+  
+  <background name="mainfoot" src_l=".\skin\foot_l.png" src_c=".\skin\foot_c.png" src_r=".\skin\foot_r.png" top_wrapmode="stretch"/>
+  <background name="toolbar" src_l=".\skin\toolbar_l.png" src_c=".\skin\toolbar_c.png" src_r=".\skin\toolbar_r.png" center_wrapmode="stretch"/>
+  <background name="line_h" src_l=".\skin\line_l.png" src_c=".\skin\line_c.png" src_r=".\skin\line_r.png" center_wrapmode="stretch"/>
+  
+  <!-- 控件风格 -->
+  <png name="sysbtn_min" src=".\skin\setting_min.png" subwidth="26"/>
+  <png name="sysbtn_close" src=".\skin\setting_close.png" subwidth="31"/>
+  <png name="sysbtn_only_close" src=".\skin\setting_only_close.png" subwidth="31"/> 
+  <png name="def_btn" src=".\skin\def_btn.png" subwidth="12" fixed_size="4" drawmode="stretchx"/>
+  <png name="tab_item_zip" src=".\skin\tab_item.png" subwidth="7" fixed_size="3" drawmode="stretchx"/>
+  
+  <color name="btn_normal" border="5E9DD9" bg="FAFA00" bgup="FAFA11" bgdown="EDE22" bguphover="DFEF33" bgdownhover="E1EE44" bguppush="86C5FE" bgdownpush="63B7FB"/>
+  <edit name="normal_edit"/>
+    <!--bg="573013" bghover="573013" border="573013" borderhover="573013" text="9F6132" texthover="9F6132"  textdefault="808080"-->
+  <png name="progressbg" src=".\skin\progressbg.png" fixed_size="3" subwidth="14" drawmode="stretchx"/>
+  <progress name="progresspos" src=".\skin\progresspos.png" fixed_size="4"/>
+  <!-- 图片 -->
+  <png name="title_icon" src=".\skin\logo.png"  text="000000"/>
+  <png name="progress_body_head" src=".\skin\progress_body_head.png"/>
+
+  <!-- 滚动条 -->
+  <scroll name="scroll_h" bg=".\skin\sc_h_bg.png" thumb=".\skin\sc_h_thumb.png" thumb2=".\skin\sc_h_thumb2.png" arrow1=".\skin\sc_h_left.png" arrow2=".\skin\sc_h_right.png"/>
+  <scroll name="scroll_v" bg=".\skin\sc_v_bg.png" thumb=".\skin\sc_v_thumb.png" thumb2=".\skin\sc_v_thumb2.png" arrow1=".\skin\sc_v_up.png" arrow2=".\skin\sc_v_down.png"/>
+
+  <png name="def_btn_combox" src=".\skin\def_btn.png" subwidth="12" fixed_size="4" drawmode="stretchx"/>
+  <edit name="edit_combobox" border="FFFFFF" borderhover="FFFFFF" bgreadonly="FFFFFF"/>
+  <png name="btn_combobox_dropdown" src=".\skin\btn_combobox_dropdown.png" subwidth="21"/>
+  <bgborder name="combobox_bg" cr_background="FFFFFF" cr_border="8299B3"/>
+  <bgborder name="combobox_dropdown_border" cr_background="FFFFFF" cr_border="0093D1"/>
+  <color  name="combobox_dropdown_item" bgup="FFFFFF" bgdown="FFFFFF" bguphover="3F97D8" bgdownhover="3188C7" bguppush="3F97D8" bgdownpush="3188C7"/>
+
+  
+  <!-- 背景 ------------------------------------------------------------------------------------d-->
+    
+  <background name="main_bg" src_t=".\main_skin\main_top_middle.png" src_tl=".\main_skin\main_top_left.png" src_tr=".\main_skin\main_top_right.png"
+              src_b=".\main_skin\main_bottom_middle.png" src_bl=".\main_skin\main_bottom_left.png" src_br=".\main_skin\main_bottom_right.png"
+              src_c=".\main_skin\main_middle.png" src_l=".\main_skin\main_left.png" src_r=".\main_skin\main_right.png"
+              center_wrapmode="stretch" />
+   
+
+  <!-- 按钮 -->
+  <png name="msysbtn_close" src=".\main_skin\sysbtn_close.png" subwidth="31"/>
+  <png name="aboutbtn_close" src=".\main_skin\sysbtn_close.png" subwidth="31"/>
+  
+  <png name="msysbtn_max" src=".\main_skin\sysbtn_max.png" subwidth="24"/>
+  <png name="msysbtn_restore" src=".\main_skin\resize_normal_hover_down.png" subwidth="24"/>
+  <png name="msysbtn_min" src=".\main_skin\sysbtn_min.png" subwidth="26"/>
+  
+  <png name="menu_file" src=".\main_skin\menu_file.png" subwidth="52"/>
+  <png name="menu_option" src=".\main_skin\menu_option.png" subwidth="52"/>
+  <png name="menu_help" src=".\main_skin\menu_help.png" subwidth="52"/>
+  <png name="menu_feedback" src=".\main_skin\menu_feedback.png" subwidth="52"/>
+  
+  <png name="toolbar_switch_tree_bt" src=".\main_skin\leftarrow.png" subwidth="19"/>
+
+  <png name="toolbar_compress" src=".\main_skin\main_toolbar_compress.png" subwidth="62"/>
+  <png name="toolbar_add" src=".\main_skin\main_toolbar_add.png" subwidth="62"/>
+  <png name="toolbar_uncompress" src=".\main_skin\main_toolbar_uncompress.png" subwidth="62"/>
+  <png name="toolbar_delete" src=".\main_skin\main_toolbar_delete.png" subwidth="62"/>
+  <png name="toolbar_sfx" src=".\main_skin\main_toolbar_sfx.png" subwidth="62"/>
+
+  <png name="toolbar_go_left" src=".\main_skin\toolbar_go_left.png" subwidth="22"/>
+  <png name="toolbar_go_right" src=".\main_skin\toolbar_go_right.png" subwidth="22"/>
+  <png name="toolbar_go_last" src=".\main_skin\toolbar_go_last.png" subwidth="13"/>
+  <png name="toolbar_go_up" src=".\main_skin\toolbar_go_up.png" subwidth="22"/>
+  <png name="bt_yes" src=".\main_skin\bt_yes.png" subwidth="37"/>
+
+  <png name="hand_bt_switch_toleft" src=".\main_skin\toleft.png" subwidth="7"  drawmode="stretchy" fixed_size="0" />
+  <png name="hand_bt_switch_toright" src=".\main_skin\toright.png" subwidth="6"  drawmode="stretchy" fixed_size="0" />
+	
+  <png name="detail_arrow_down" src=".\skin\detail_btn_down.png" subwidth="16"/>
+  <png name="detail_arrow_up" src=".\skin\detail_btn_up.png" subwidth="16"/>
+  
+  <!-- 图标图片 -->
+  <png name="main_icon" src=".\main_skin\zip_icon.png" left="0"/>
+
+  <png name="toolbar_url_tip" src=".\main_skin\url.png" left="0"/>
+  <png name="status_png" src=".\main_skin\bottom_status.png" left="0" subwidth="12"  drawmode="stretchx" fixed_size="5" />
+  <png name="status_spe_png" src=".\main_skin\bottom_status_seperator.png" left="0" subwidth="1"  />
+  <png name="banner_png" src=".\main_skin\banner.png" left="0" subwidth="562"  drawmode="stretchx" fixed_size="250" />
+  <png name="fileforder_bk" src=".\main_skin\tablehead_left.png" left="0" subwidth="7"  drawmode="stretchx" fixed_size="2" />
+  <png name="urlbk" src=".\main_skin\url_bk.png" left="0" subwidth="8"  drawmode="stretchx" fixed_size="2" />
+  <png name="right_png" src=".\main_skin\right.png" left="0" />
+
+  <png name="view_type1" src=".\main_skin\view_1.png" subwidth="22"/>
+  <png name="view_type2" src=".\main_skin\view_2.png" subwidth="22"/>
+
+  <color name="tab_item" border="5E9DD9" bg="FAFA00" bgup="FAFAFA" bgdown="EDEFEF" bguphover="DFEFFD" bgdownhover="E1EEF9" bguppush="000000" bgdownpush="63B7FB"/>
+
+  <!-- 颜色设定 -->
+  <edit name="search_edit" bg="573013" bghover="573013" border="573013" borderhover="573013" text="9F6132" texthover="9F6132"  textdefault="808080" />
+  
+  <!-- 提示图标 --> 
+  <imglst name="alert_icon" src=".\skin\alert_icons.png" subwidth="41"/>
+  
+  <!-- check box --> 
+  <imglst name="checkbox_normal" src=".\skin\checkbox.png" subwidth="16"/>
+  
+	<!-- radio box --> 
+    <imglst name="radio_normal" src=".\skin\radio_normal.png" subwidth="14"/>
+  
+</skins>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

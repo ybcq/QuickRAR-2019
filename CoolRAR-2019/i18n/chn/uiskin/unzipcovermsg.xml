@@ -1,0 +1,39 @@
+﻿<dialog width="320" height="336" appwin="0" resizable="0" min_width="320" min_height="336" title="强压" round="5" tabdefault="1">
+  <div  pos="0,0,-0,-0" class="bug_bk">
+    <div  pos="0,0,-0,30">
+      <text id="31001" class="dlgtitle" pos="35,8,-45,25">强压</text>
+      <img pos="10,7" skin="title_icon" sub="0"/>
+      <imgbtn id="53001" pos="-37,4,-6,23" class="sysbtn_only_close"/>
+    </div>
+    
+    <text pos="20,40,-30,60" class="text_normal" >目标文件夹存在同名文件，是否覆盖文件？</text>
+
+    
+    <text pos="30,60,-30,80" class="text_normal" >目标文件夹中的文件</text>
+    <icon id="53017" pos="30,100" size="32"/>
+    <text id="53014"  pos="80,86,-30,100" class="text_normal_dot" >目标</text>
+    <text id="53015" pos="80,100,-30,120" class="text_normal" >目标大小</text>
+    <text id="53016" pos="80,120,-30,140" class="text_normal" >修改时间</text>
+
+
+    <text pos="30,160,-30,180" class="text_normal" >压缩包中的文件</text>
+    <icon id="53013" pos="30,200" size="32"/>
+    <text id="53010" pos="80,186,-30,200" class="text_normal_dot" >源文件</text>
+    <text id="53011" pos="80,200,-30,220" class="text_normal" >源文件大小</text>
+    <text id="53012" pos="80,220,-30,240" class="text_normal" >修改时间</text>
+    
+    <button id="53003" pos="24,256,97,279" class="def_btn" taborder="1" accept="1">全部覆盖</button>
+    <button id="53004" pos="124,256,197,279" class="def_btn" taborder="2" accept="1">全部跳过</button>
+    <button id="53005" pos="-24,256,-97,279" class="def_btn" taborder="3" accept="1">全部重命名</button>
+
+    <button id="53006" pos="24,286,97,309" class="def_btn" taborder="4" accept="1">覆盖</button>
+    <button id="53007" pos="124,286,197,309" class="def_btn" taborder="5" accept="1">跳过</button>
+    <button id="53002" pos="-24,286,-97,309" class="def_btn" taborder="6" accept="1">取消</button>
+    
+    <!--
+    <div pos="6,-36,-6,-6">
+      <check  id="53018" pos="24,2,-100,-2" font1="0204">应用所有的同名文件</check>
+      <button id="53002" pos="-85,-25,-15,-2" class="def_btn" taborder="4" accept="1">取消</button>
+    </div>-->
+  </div>
+</dialog>
